@@ -1,0 +1,56 @@
+body{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post{
+    background-color: white;
+    height: 300px;
+    width: 450px;
+}
+
+.post-header{
+    max-width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+
+} .post-info{
+    display: flex;
+    align-items: center;
+} .post-info > i{
+    font-size: 50px;
+    margin-right: 15px;
+} .puntos > i{
+    font-size: 25px;
+} .info-user{
+    display: grid;
+}
+
+.post-img > img{
+    width: 100%;
+    height: 100%;
+}
+
+.post-body{
+    background-color: white;
+    padding: 15px;
+} .post-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+} .post-icons > i, .items > i {
+    cursor: pointer;
+}
+
+
+
